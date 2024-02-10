@@ -1,11 +1,11 @@
 # Usar la imagen base de Java 17
-FROM adoptopenjdk:17-jre-hotspot
+FROM openjdk:17-jdk-slim
 
 # Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
 # Copiar el archivo JAR de la aplicación a la imagen
-COPY target/my-application.jar /app
+COPY target/serviceClient.jar /app
 
 # Puerto en el que la aplicación expone su servicio
 EXPOSE 8080

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.service.client.springboot.web.service.ServiceClientAppli
+ cation
+
