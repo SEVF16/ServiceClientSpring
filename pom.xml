@@ -77,6 +77,7 @@
 	            </configuration>
 	        </plugin>
 		</plugins>
+		<finalName>serviceClient</finalName>
 	</build>
 
 </project>
